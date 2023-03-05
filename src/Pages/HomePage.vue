@@ -1,22 +1,27 @@
 <template>
   <div class="homepage">
-  <div class="homepage__left">
-    <h2>Hello I'M Ojo Taiwo</h2>
-    <!-- <img src="./assets/use.png" > -->
+ <div class="welcome">
+  <h1>Welcome to my page</h1>
+  <h3>To view all my repositories, click the Link below</h3>
+  <div class="link">
+     <router-link :to="{name : 'RepositoryPage'}">Repository</router-link>
   </div>
-  <div class="homepage__right">
-    <div class="homepage__right--top">
-       <h3>Folarh's Github Profile</h3>
-    </div>
-    <div class="homepage__right--bottom">
-       <h3>Ojo Taiwo</h3>
-       <p>I am Frontend developer, and also a pianist,
-        i am currently opened to frontend Development roles.
-        i am passionate about sharing knowledge.
-       </p>
-    </div>
-         
+  <!-- <div class="names">
+<div class="name">T</div>
+<div class="name">A</div>
+<div class="name">I</div>
+<div class="name">W</div>
+<div class="name">O</div>
   </div>
+    <div class="names">
+<div class="surname">O</div>
+<div class="surname">J</div>
+<div class="surname">O</div>
+
+  </div> -->
+  
+ </div>
+ 
   </div>
 </template>
 
@@ -30,41 +35,72 @@ export default {
 .homepage{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 700px;
-  background: #f1f1f1;
-  margin-top: 20px;
-  padding: 20px;
+  /* margin-top: 20px; */
+color: white;
+align-content: center;
+}
+.welcome{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+   box-shadow: 60px -16px rgb(240, 237, 237);
+   border: 1px solid black;
+  padding: 30px;
+   border-radius: 20px;
+}
 
+.welcome h1{
+  font-size: 3rem;
+  font-weight:900 ;
+  color: orange;
 }
-.homepage__left{
-  flex: 0.5;
-  border-right: 1px solid red;
-}
-.homepage__left h2{
+
+.welcome h3{
+  color: silver;
+  margin-top: 20px;
   text-align: center;
 }
-
-.homepage__right{
-  flex: 0.5;
-  padding: 20px;
+.link{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.link a{
+color: steelblue;
+font-size: 3rem;
 }
 
-.homepage__right--top{
-height: 150px;
+.names{
+display: flex;
+justify-content: space-evenly;
+margin-top: 30px;
+padding: 20px;
 align-items: center;
 }
-.homepage__right--top h3{
+
+.name{
+  width: 50px;
+  color: green;
+  font-size: 2rem;
+  font-weight: 900;
+  border: 1px solid silver;
   text-align: center;
+  margin-right: 5px;
+  
 }
 
-.homepage__right--bottom{
-  background-color: blue;
-  height: 500px;
-  margin-top: 10px;
-}
-
-.homepage__right--bottom h3,p{
+.surname{
+  width: 50px;
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+  border: 1px solid silver;
   text-align: center;
+  margin-right: 5px;
+  
 }
 </style>
