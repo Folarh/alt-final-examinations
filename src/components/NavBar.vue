@@ -23,23 +23,27 @@ export default {
    justify-content: space-around;
    align-items: center;
    border-bottom: 2px solid black;
-   background-color: black;
+   background-color: steelblue;
    color: #f1f1f1;
    height: 100px;
 }
  .navbar a{
     font-weight: bold;
-    color: #f1f1f1;
+    color: black;
     margin: 10px;
+    font-size:1.5rem;
     text-decoration: none;
  }
 
- .navbar a.router-link-exact-active {
-    color: steelblue;
- }
+
 
  .navbar a:hover{
-   color: crimson;
+   color: white;
    border-bottom: 2px solid grey;
+ }
+
+ .logo h3{
+   color: red;
+   font-size: 2rem;
  }
 </style>

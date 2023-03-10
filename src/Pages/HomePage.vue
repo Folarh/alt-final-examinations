@@ -6,19 +6,7 @@
   <div class="link">
      <router-link :to="{name : 'RepositoryPage'}">Repository</router-link>
   </div>
-  <!-- <div class="names">
-<div class="name">T</div>
-<div class="name">A</div>
-<div class="name">I</div>
-<div class="name">W</div>
-<div class="name">O</div>
-  </div>
-    <div class="names">
-<div class="surname">O</div>
-<div class="surname">J</div>
-<div class="surname">O</div>
 
-  </div> -->
   
  </div>
  
@@ -37,7 +25,6 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   height: 700px;
-  /* margin-top: 20px; */
 color: white;
 align-content: center;
 }
@@ -48,7 +35,6 @@ align-content: center;
   align-items: center;
   margin-top: 50px;
    box-shadow: 60px -16px rgb(240, 237, 237);
-   border: 1px solid black;
   padding: 30px;
    border-radius: 20px;
 }
@@ -56,11 +42,11 @@ align-content: center;
 .welcome h1{
   font-size: 3rem;
   font-weight:900 ;
-  color: orange;
+  color: grey;
 }
 
 .welcome h3{
-  color: silver;
+  color: black;
   margin-top: 20px;
   text-align: center;
 }

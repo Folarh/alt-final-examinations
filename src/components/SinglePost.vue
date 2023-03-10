@@ -1,10 +1,11 @@
 <template>
-  <div class="post">
-    <router-link :to="{name: 'DetailsPage', params:{id: post.full_name}}">
+  <div class="singlepost">
+    <router-link :to="{name: 'DetailsPage', params:{name: post.name}}">
       <h3>{{post.name}}</h3>
     </router-link>
-     <h4>watchers :{{post.watchers}}</h4>
-      <h5> visibility:{{post.visibility}}</h5>
+     <h4>Watchers :{{post.watchers}}</h4>
+      <h5> Visibility:{{post.visibility}}</h5>
+       <h5> User Id:{{post.id}}</h5>
      
   </div>
   
@@ -19,26 +20,24 @@ props: ['post'],
 
 
 <style>
-.post{
-    width: 200px;
-    height: 100px;
+.singlepost{
     margin-top: 20px;
     color: white;
-    box-shadow: 60px -16px rgb(175, 175, 175);
-   border: 1px solid black;
+   background: whitesmoke;
    padding: 20px;
    border-radius:20px;
 }
 
-.post h4{
+.singlepost h4{
     background-color: grey;
     border-radius:10px;
+    width: 40%;
 }
-.post h5{
+.singlepost h5{
     color: steelblue;
 }
 
-.post a{
+.singlepost a{
   color: orange;
 }
 .pagination{
