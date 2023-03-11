@@ -81,7 +81,7 @@ export default {
   margin: 30px 0;
   padding-left: 20px;
   border-radius: 0 0 0 6px;
-  color: steelblue;
+  color: #50b7f5;
   background-color: whitesmoke;
 }
 .error {

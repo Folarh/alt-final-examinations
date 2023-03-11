@@ -23,13 +23,13 @@ export default {
    justify-content: space-around;
    align-items: center;
    border-bottom: 2px solid black;
-   background-color: steelblue;
+   background-color: #50b7f5;
    color: #f1f1f1;
    height: 100px;
 }
  .navbar a{
     font-weight: bold;
-    color: black;
+    color: white;
     margin: 10px;
     font-size:1.5rem;
     text-decoration: none;
@@ -38,12 +38,12 @@ export default {
 
 
  .navbar a:hover{
-   color: white;
-   border-bottom: 2px solid grey;
+   color: steelblue;
+   border-bottom: 1px solid grey;
  }
 
  .logo h3{
-   color: red;
+   color: #f1f1f1;
    font-size: 2rem;
  }
 </style>

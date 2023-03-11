@@ -57,7 +57,7 @@ export default {
   border-radius: 6px;
 }
 .pagination button:hover {
-  background-color: orange;
+  background-color: #50b7f5;;
   color: white;
 }
 

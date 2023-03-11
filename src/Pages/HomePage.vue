@@ -34,7 +34,7 @@ align-content: center;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 50px;
-   box-shadow: 60px -16px rgb(240, 237, 237);
+   box-shadow: 60px -16px  #50b7f5;
   padding: 30px;
    border-radius: 20px;
 }
@@ -56,7 +56,7 @@ align-content: center;
   margin-top: 30px;
 }
 .link a{
-color: steelblue;
+color: #50b7f5;;
 font-size: 3rem;
 }
 

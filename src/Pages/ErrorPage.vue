@@ -29,7 +29,7 @@ export default {};
 }
 .not-found h3 {
   font-size: 30px;
-  color: #e7dbdb;
+  color: #50b7f5;
 }
 .not-found p {
   margin: 40px 0;

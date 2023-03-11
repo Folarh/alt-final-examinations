@@ -34,11 +34,11 @@ props: ['post'],
     width: 40%;
 }
 .singlepost h5{
-    color: steelblue;
+    color: orange;
 }
 
 .singlepost a{
-  color: orange;
+  color: #50b7f5;
 }
 .pagination{
   display: flex;
