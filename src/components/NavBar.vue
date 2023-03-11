@@ -22,10 +22,13 @@ export default {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   border-bottom: 2px solid black;
+   border-bottom: 2px solid silver;
    background-color: #50b7f5;
    color: #f1f1f1;
    height: 100px;
+   top: 0;
+   z-index: 100;
+   position: sticky;
 }
  .navbar a{
     font-weight: bold;

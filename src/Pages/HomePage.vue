@@ -22,7 +22,7 @@ export default {
 <style>
 .homepage{
   display: flex;
-  height: 765px;
+  /* height: 765px; */
   flex-wrap: wrap;
   justify-content: center;
 color: white;

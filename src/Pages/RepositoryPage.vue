@@ -10,7 +10,6 @@
  
    </div>
    <div v-else class="load">
-  loading...
   <SpinnerPage/>
     </div>
    
@@ -46,7 +45,8 @@ return{posts,error}
     border-radius: 20px;
     padding: 20px;
     color: white; 
-    /* height: 500px; */
+  
+    
 }
 
 .repository h1{

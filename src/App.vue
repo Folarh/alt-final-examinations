@@ -21,7 +21,7 @@ export default {
   padding: 0;
 }
 #app {
-  /* height: 100vh; */
+  height: 100vh;
   background-color: #e6ecf0;
   
 }

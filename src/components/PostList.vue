@@ -45,7 +45,7 @@ export default {
 }
 .pagination {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -57,6 +57,7 @@ export default {
   border: none;
   outline: none;
   border-radius: 6px;
+  color:  grey;
 }
 .pagination button:hover {
   background-color: #50b7f5;;

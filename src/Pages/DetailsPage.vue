@@ -66,6 +66,7 @@ export default {
   background-color: whitesmoke;
   padding: 20px;
   border-radius: 4px;
+ 
 }
 .repo-details h1 {
   text-align: center;

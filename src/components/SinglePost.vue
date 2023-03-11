@@ -40,9 +40,5 @@ props: ['post'],
 .singlepost a{
   color: #50b7f5;
 }
-.pagination{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 </style>
