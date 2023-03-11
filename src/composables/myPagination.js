@@ -3,11 +3,8 @@ import {ref, computed} from 'vue'
 const myPagination = (data) => {
     let page = ref(1);
   
-    //   const data = Array.from(Array(24).keys()).map((item) => {
-    //     return { index: item, value: `this_${item}` };
-    //   });
   
-    const perPage = 3;
+    const perPage = 4;
   
     const paginatedData = computed(() =>
       data.slice((page.value - 1) * perPage, page.value * perPage)

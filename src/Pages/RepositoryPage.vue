@@ -45,6 +45,7 @@ return{posts,error}
     border-radius: 20px;
     padding: 20px;
     color: white; 
+     background: whitesmoke;
   
     
 }
