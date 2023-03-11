@@ -3,8 +3,8 @@
 <div v-for="post in paginatedData" :key="post.id">
     <SinglePost :post="post"/>
     </div>
-   </div>
-   <div class="pagination">
+
+     <div class="pagination">
       <button @click="backPage">prev</button>
       <button
         v-for="item in Math.ceil(posts.length / perPage)"
@@ -16,6 +16,8 @@
 
       <button @click="nextPage">next</button>
     </div>
+   </div>
+  
 </template>
 
 <script>

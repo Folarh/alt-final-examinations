@@ -7,7 +7,7 @@ const myPagination = (data) => {
     //     return { index: item, value: `this_${item}` };
     //   });
   
-    const perPage = 3;
+    const perPage = 5;
   
     const paginatedData = computed(() =>
       data.slice((page.value - 1) * perPage, page.value * perPage)

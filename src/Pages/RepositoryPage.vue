@@ -46,7 +46,7 @@ return{posts,error}
     border-radius: 20px;
     padding: 20px;
     color: white; 
-    height: 700px;
+    /* height: 500px; */
 }
 
 .repository h1{
